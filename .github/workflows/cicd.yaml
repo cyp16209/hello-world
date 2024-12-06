@@ -24,3 +24,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
+    
+    - name: Grant execute permission for gradlew
+      run : chmod +x gradlew
