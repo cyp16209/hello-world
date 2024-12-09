@@ -1,9 +1,7 @@
 
 name: Gradle Build & K8s Deploy
 
-on:
-  push:
-    tags: V*
+on: push
 
 jobs:
   build:
